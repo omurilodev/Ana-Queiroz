@@ -137,7 +137,10 @@ header.nav{
 .wave svg{display:block;width:100%;height:100%}
 .wave--top{top:0}
 .wave--bottom{bottom:0}
-@media(max-width:560px){.wave{height:18px}}
+@media(max-width:560px){
+  .wave{height:14px}
+  .strip .strip-inner{padding:30px 20px}
+}
 
 /* ---------- section frame ---------- */
 section{padding:96px 0}
@@ -359,7 +362,7 @@ footer{background:var(--olive);color:var(--cream);padding:54px 0 30px;position:r
 .line-art--final{top:20px;left:6%;width:120px;height:120px;opacity:.18}
 .line-art--final2{bottom:16px;right:6%;width:120px;height:94px;opacity:.18}
 @media(max-width:640px){
-  .line-art{display:none}
+  .line-art{opacity:.08}
 }
 
 /* ---------- responsive ---------- */
