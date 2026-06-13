@@ -93,7 +93,8 @@ header.nav{
   border-bottom:1px solid rgba(101,93,59,.12);
 }
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
-.brand{font-family:var(--hand);font-size:1.5rem;color:var(--olive);line-height:1}
+.brand{font-family:var(--hand);font-size:1.5rem;color:var(--olive);line-height:1;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.brand-crp{font-family:var(--sans);font-size:.68rem;font-weight:600;letter-spacing:.03em;color:var(--ink);opacity:.55;white-space:nowrap}
 .nav-links{display:flex;gap:30px;align-items:center}
 .nav-links a{font-size:.97rem;font-weight:500;color:var(--ink);opacity:.8;transition:opacity .2s,color .2s}
 .nav-links a:hover{opacity:1;color:var(--terra)}
@@ -453,7 +454,7 @@ footer{background:var(--olive);color:var(--cream);padding:54px 0 30px;position:r
 
 <header class="nav">
   <div class="wrap nav-inner">
-    <a href="#top" class="brand">Ana Beatriz Queiroz</a>
+    <a href="#top" class="brand">Ana Beatriz Queiroz<span class="brand-crp">CRP 10/06526</span></a>
     <nav class="nav-links" id="menu">
       <a href="#sobre">Sobre</a>
       <a href="#servicos">Serviços</a>
@@ -654,8 +655,8 @@ footer{background:var(--olive);color:var(--cream);padding:54px 0 30px;position:r
     <div class="wrap">
       <div class="mat-header reveal">
         <span class="eyebrow">materiais</span>
-        <h2>Recursos para o caminho entre as sessões</h2>
-        <p>Materiais práticos e gratuitos sobre o dia a dia neurodivergente, abertos a qualquer pessoa interessada no tema, esteja você em terapia comigo ou não. Para minhas pacientes, também desenvolvo materiais individualizados, pensados para cada processo específico; os que você encontra aqui no site são abertos a todas.</p>
+        <h2>Materiais gratuitos para você</h2>
+        <p>Materiais práticos e gratuitos sobre saúde mental, abertos a qualquer pessoa interessada no tema, esteja você em terapia comigo ou não. Para minhas pacientes, também desenvolvo materiais individualizados, pensados para cada processo específico; os que você encontra aqui no site são abertos a todas.</p>
       </div>
       <div class="pdf-carousel-wrap">
         <button class="carousel-arrow carousel-prev" id="carouselPrev" aria-label="Anterior">&#8249;</button>
