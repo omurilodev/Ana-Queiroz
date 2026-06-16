@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-Content \"c:\\\\Users\\\\livin\\\\OneDrive\\\\Área de Trabalho\\\\Ana Queiroz Psi\\\\index.html\" -TotalCount 30)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e ' *)",
+      "Bash(node \"c:/Users/livin/OneDrive/Área de Trabalho/Ana Queiroz Psi/patch.js\")",
+      "Bash(node \"c:/Users/livin/OneDrive/Área de Trabalho/Ana Queiroz Psi/patch-mobile.js\")",
+      "Bash(node \"c:/Users/livin/OneDrive/Área de Trabalho/Ana Queiroz Psi/patch2.js\")",
+      "Bash(node \"c:/Users/livin/OneDrive/Área de Trabalho/Ana Queiroz Psi/patch-lineart.js\")",
+      "Bash(node \"c:/Users/livin/OneDrive/Área de Trabalho/Ana Queiroz Psi/patch-flowers.js\")",
+      "Bash(node \"c:/Users/livin/OneDrive/Área de Trabalho/Ana Queiroz Psi/patch-flowers2.js\")",
+      "Bash(awk '{ print NR\": \"length\\($0\\) }' \"c:\\\\Users\\\\livin\\\\OneDrive\\\\Área de Trabalho\\\\Ana Queiroz Psi\\\\index.html\")",
+      "Bash(sort -t: -k2 -rn)",
+      "Bash(awk '{ if \\(length\\($0\\) > 600\\) print NR+496\": \"substr\\($0,1,300\\)\" ...[TRUNCATED]... \"substr\\($0,length\\($0\\)-150\\); else print NR+496\": \"$0 }')",
+      "Bash(awk '{ if \\(length\\($0\\) > 600\\) print NR+419\": \"substr\\($0,1,300\\)\" ...[TRUNCATED]... \"substr\\($0,length\\($0\\)-150\\); else print NR+419\": \"$0 }')",
+      "Bash(awk '{ if \\(length\\($0\\) > 600\\) print NR\": [LONG LINE OMITTED, len=\"length\\($0\\)\"]\"; else print NR\": \"$0 }')",
+      "Bash(awk '{ if \\(length\\($0\\) > 600\\) print \"[LONG LINE OMITTED, len=\"length\\($0\\)\"]\"; else print $0 }')",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(command -v chromium-cli)",
+      "Bash(chromium-cli --help)",
+      "Bash(awk '{ if \\(length\\($0\\) > 600\\) print NR\": [LONG LINE OMITTED]\"; else print NR\": \"$0 }')",
+      "PowerShell($edge = \\(Get-Command msedge -ErrorAction SilentlyContinue\\).Source; if \\(-not $edge\\) { $edge = \"C:\\\\Program Files \\(x86\\)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe\" }; Test-Path $edge)",
+      "Bash(grep -n '<div class=\"strip\">\\\\|</div>\\\\s*$\\\\|<section id=\"formacao\"\\\\|</section>\\\\|<footer>\\\\|<!-- ABOUT -->\\\\|<!-- MATERIALS -->\\\\|<!-- CREDENTIALS -->' \"c:\\\\Users\\\\livin\\\\OneDrive\\\\Área de Trabalho\\\\Ana Queiroz Psi\\\\index.html\")"
+    ]
+  }
+}
